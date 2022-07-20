@@ -1,12 +1,10 @@
 body {
-    font-family: helvetica;
+    font-family: arial;
+    margin: 0;
+    box-sizing: border-box;
+
 }
 
-h1 {
-    color: navy;
-    text-align: center;
-    font-weight: bold;
-}
 
 .header {
     font-weight: bold;
@@ -27,3 +25,204 @@ h1 {
     align: center;
 
 }
+
+/*Homepage
+
+/* Add a black background color to the top navigation */
+
+
+#background {
+  background-color: black;
+  overflow: hidden;
+  height: 60px;
+  line-height: 60px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 0px 27px 0px 0px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: green;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: navy;
+  color: white;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+}
+
+#title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.right {
+    float: right;
+    padding: 0px;
+
+}
+
+.alignment {
+    margin: 0px 250px;
+}
+
+.container {
+    margin: 0px 250px;
+}
+
+
+.body-text {
+    font-size: 19px;
+    margin: 10px 460px 20px 0px;
+
+}
+
+.button{
+    color: green;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    margin: 0 0 40px 0;
+}
+
+.button:hover {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+.arrow {
+    color: green;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sub-heading {
+    margin: 50px 0 10px 0;
+    font-size: 35px;
+}
+
+.line {
+    margin: 0;
+}
+
+.updates {
+  color: grey;
+  font-size: 15px;
+
+}
+
+.contents {
+    font-size: 18px;
+    color: darkgrey;
+    font-weight: bold;
+
+}
+
+ul {
+  margin: 0 0 0 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
+.contents-list {
+    align: left;
+}
+
+.subtitle-two {
+    align: left;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    color: darkgreen;
+    font-weight: bold;
+
+}
+
+.contents-padding {
+    margin: 10px 0 25px -45px;
+}
+
+.second_page_button {
+
+}
+
+
+.second-button{
+    color: black;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 40px 0;
+}
+
+.second-button:hover {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+.second-button {
+    align: left;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: darkgreen;
+
+}
+
+.button-space {
+    margin: 0 0 0 20px;
+}
+
+
+
+
+}
+
+.table-style {
+    color: black;
+    text-weight: bold;
+    align: center;
+}
+
+
+
+.table-heading {
+    align: center;
+    background-color: white;
+}
+
+.table-style{
+border-collapse:collapse;
+border:1px solid white;
+}
+
+table td{
+border:1px solid grey;
+
+}
+</style>
